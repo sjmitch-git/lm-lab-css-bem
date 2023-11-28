@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
-</head>
+  </head>
 
-<body>
-    <h1>BEM Wars</h1>
-    <div class="container">
-        <div>
-            <h2>The Dark Side</h2>
-            <img src="./images/vader.jpeg">
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header-title">BEM Wars</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid cols-2 gap-4 container">
+        <div class="card bg-dark">
+          <div class="card-header">
+            <h3 class="card-title">The Dark Side</h3>
+          </div>
+          <figure class="card-image-container">
+            <img src="./images/vader.jpeg" alt="Darth Vader shaking fist" class="card-image" />
+          </figure>
+          <div class="card-body">
             <p>Nesting!</p>
             <p>Conflict!</p>
             <p>Specificity Wars!</p>
             <p>Cookies</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn lg bg-danger">Select</button>
+          </div>
         </div>
 
-        <div>
-            <h2>The Force</h2>
-            <img src="./images/yoda.jpeg">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">The Force</h3>
+          </div>
+          <figure class="card-image-container">
+            <img src="./images/yoda.jpeg" alt="Yoda smiling" class="card-image" />
+          </figure>
+          <div class="card-body">
             <p>Love</p>
             <p>Beauty</p>
             <p>CSS that Scales!</p>
             <p>Great warrior. Wars not make one great!</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn lg bg-primary">Select</button>
+          </div>
         </div>
-    </div>
-</body>
+      </div>
+    </main>
 
+    <footer class="'footer">
+      <div class="container">#footer</div>
+    </footer>
+  </body>
 </html>

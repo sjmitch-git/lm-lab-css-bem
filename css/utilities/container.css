@@ -1,0 +1,32 @@
+.container {
+  max-width: calc(100% - 1rem);
+  margin: auto;
+
+  &.full {
+    max-width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    & {
+      max-width: calc(768px - 1rem);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    & {
+      max-width: calc(1024px - 1rem);
+    }
+  }
+
+  @media (min-width: 1280px) {
+    & {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    & {
+      max-width: 1536px;
+    }
+  }
+}

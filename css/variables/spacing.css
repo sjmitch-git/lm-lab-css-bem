@@ -1,0 +1,17 @@
+/* SPACING */
+:root {
+  --spacing-0: 0;
+  --spacing-1: 0.25em;
+  --spacing-2: 0.5em;
+  --spacing-3: 0.75em;
+  --spacing-4: 1em;
+  --spacing-5: 1.25em;
+  --spacing-6: 1.5em;
+  --spacing-8: 2em;
+  --spacing-10: 2.5em;
+  --spacing-12: 3em;
+  --spacing-16: 4em;
+  --spacing-20: 5em;
+  --spacing-24: 6em;
+  --spacing-32: 8em;
+}

@@ -1,0 +1,25 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: var(--sans-font);
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-size: 1rem;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  margin-bottom: var(--spacing-6);
+}
+
+footer {
+  margin-top: auto;
+  padding: var(--spacing-6) 0;
+}

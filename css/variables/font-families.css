@@ -1,0 +1,23 @@
+/* common font-families */
+:root {
+  --courier-font: "Courier New", "Courier", monospace;
+  --times-font: "Times New Roman", "Times", serif;
+  --arial-font: "Arial", sans-serif;
+  --helvetica-font: "Helvetica", sans-serif;
+  --georgia-font: "Georgia", serif;
+  --palatino-font: "Palatino", "Palatino Linotype", serif;
+  --garamond-font: "Garamond", serif;
+  --bookman-font: "Bookman", "Bookman Old Style", serif;
+  --trebuchet-font: "Trebuchet MS", sans-serif;
+  --verdana-font: "Verdana", Geneva, sans-serif;
+  --impact-font: "Impact", sans-serif;
+  --arial-black-font: "Arial Black", sans-serif;
+}
+
+/* font-family groups */
+:root {
+  --sans-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    "Helvetica Neue", Arial, Noto Sans, sans-serif;
+  --serif-font: Georgia, Cambria, "Times New Roman", Times, serif;
+  --mono-font: Consolas, Menlo, Monaco, "Liberation Mono", monospace;
+}

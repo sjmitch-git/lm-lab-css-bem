@@ -1,0 +1,29 @@
+.btn {
+  cursor: pointer;
+  font-size: var(--size-0);
+  padding: var(--spacing-3);
+  text-transform: uppercase;
+  border: none;
+  border-radius: var(--spacing-1);
+  font-weight: 500;
+
+  &.sm {
+    font-size: var(--size-00);
+  }
+
+  &.lg {
+    font-size: var(--size-3);
+  }
+
+  &.xl {
+    font-size: var(--size-5);
+  }
+
+  &.block {
+    width: 100%;
+  }
+
+  &:hover {
+    box-shadow: var(--box-shadow-sm);
+  }
+}

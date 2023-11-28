@@ -1,0 +1,8 @@
+.header {
+  margin-bottom: var(--spacing-6);
+  padding: var(--spacing-6) 0;
+
+  & .header-title {
+    margin-bottom: 0;
+  }
+}

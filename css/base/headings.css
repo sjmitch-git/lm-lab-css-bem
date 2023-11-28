@@ -1,0 +1,51 @@
+h1,
+.h1 {
+  font-size: var(--size-6);
+
+  &.display-1 {
+    font-size: var(--size-10);
+  }
+  &.display-2 {
+    font-size: var(--size-9);
+  }
+  &.display-3 {
+    font-size: var(--size-8);
+  }
+  &.display-4 {
+    font-size: var(--size-7);
+  }
+}
+
+h2,
+.h2 {
+  font-size: var(--size-5);
+}
+
+h3,
+.h3 {
+  font-size: var(--size-4);
+}
+
+h4,
+.h4 {
+  font-size: var(--size-3);
+}
+
+h5,
+.h5 {
+  font-size: var(--size-2);
+}
+
+h6,
+.h6 {
+  font-size: var(--size-1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.75em;
+}
